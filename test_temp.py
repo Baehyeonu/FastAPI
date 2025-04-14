@@ -1,18 +1,9 @@
-# from temp import add
+from temp import add
 
-# def test_add() -> None:
 
-#     #Given
-#     a,b = 1,1
+def test_add() -> None:
+    a, b = 1, 1
 
-#     #When
-#     result = add(a,b)
-    
-#     #Then
-#     assert result == 2
+    result = add(a, b)
 
-# async def test_asd() -> None:
-#     print("abc")
-
-# async def test_gusdn() -> None:
-#     print("abc")
+    assert result == 2
